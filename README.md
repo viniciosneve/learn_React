@@ -1,2 +1,2 @@
 # learn_React
-in this repository i will begin learn React, for my frist time
+information get in W3School website
