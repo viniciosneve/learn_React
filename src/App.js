@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name= 'vinicios';
+
+  const newName= name.toUpperCase();
+
+  function sum(n1, n2) {
+    return n1 + n2;
+  }
+
+  const url= 'https://via.placeholder.com/150'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Hello World
+      </h1>
+
+      <p>
+        Ola {newName}
+      </p>
+
+      <p>
+        soma de 2 + 2 = {2 + 2}
+      </p>
+
+      <p>
+        usando a function eu criei uma função chamada 'sum' que recebe dois números inteiros {sum(2, 2)}
+      </p>
+
+      <img src= {url} alt= "minha imagem" />
     </div>
   );
 }
