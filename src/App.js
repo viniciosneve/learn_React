@@ -1,4 +1,6 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+
 
 function App() {
   const name= 'vinicios';
@@ -30,8 +32,10 @@ function App() {
       </p>
 
       <img src= {url} alt= "minha imagem" />
+
+      <HelloWorld />
     </div>
   );
 }
 
-export default App;
+export default App
